@@ -31,6 +31,7 @@ public class SearchController {
 	public String getUserDetails(@PathVariable("userID")int userId)
 	{
 		System.out.println("Krishna");
+		System.out.println("PAthVariable Example");
 		System.out.println(userId);
 		return "home";
 	}
