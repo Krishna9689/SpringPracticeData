@@ -30,6 +30,7 @@ public class SearchController {
 	@RequestMapping("/user/{userId}")
 	public String getUserDetails(@PathVariable("userID")int userId)
 	{
+		System.out.println("Krishna");
 		System.out.println(userId);
 		return "home";
 	}
