@@ -27,12 +27,13 @@ public class SearchController {
 		
 	}
 	
-	@RequestMapping("/user/{userId}")
-	public String getUserDetails(@PathVariable("userID")int userId)
+	@RequestMapping("/user/{userId}/{userName}")
+	public String getUserDetails(@PathVariable("userId")int userId,@PathVariable("userName")String name)
 	{
-		System.out.println("Krishna");
+
 		System.out.println("PAthVariable Example");
 		System.out.println(userId);
+		System.out.println(name);
 		return "home";
 	}
 }
