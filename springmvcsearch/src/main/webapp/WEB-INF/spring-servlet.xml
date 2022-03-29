@@ -31,12 +31,12 @@ xmlns:mvc="http://www.springframework.org/schema/mvc"
  </bean>
    
    
-  <mvc:interceptors>
-           <mvc:interceptor>
-               <mvc:mapping path="/welcome"/>
-               <bean class="springmvcsearch.MyInterceptor"></bean>
-           </mvc:interceptor>
-  </mvc:interceptors>
+<!--   <mvc:interceptors> -->
+<!--            <mvc:interceptor> -->
+<!--                <mvc:mapping path="/welcome"/> -->
+<!--                <bean class="springmvcsearch.MyInterceptor"></bean> -->
+<!--            </mvc:interceptor> -->
+<!--   </mvc:interceptors> -->
     
 
  

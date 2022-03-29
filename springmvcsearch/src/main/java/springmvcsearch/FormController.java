@@ -23,7 +23,7 @@ public class FormController {
 		{
 			return "complex_form";
 		}
-		System.out.println(student);
+	//	System.out.println(student);
 		return "success";
 	}
 }

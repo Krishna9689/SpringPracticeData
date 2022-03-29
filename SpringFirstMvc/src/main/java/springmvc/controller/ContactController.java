@@ -56,7 +56,7 @@ public class ContactController {
 ////		System.out.println(email);
 ////		System.out.println(user);
 ////		System.out.println(pass);
-////		
+//
 //		model.addAttribute("name",user);
 //		model.addAttribute("email",email);
 //		model.addAttribute("pass",pass);
